@@ -2,6 +2,8 @@
   --space: 1rem;
   --space-sm: .75rem;
   --space-xs: .50rem;
+  --theme-color: #a3c2a3;
+  /* for manifest */
   --bg-body: hsl(120, 20%, 80%);
   --bg-card: hsl(120, 20%, 90%);
   --bg-list: hsl(120, 20%, 99%);
