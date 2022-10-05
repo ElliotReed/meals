@@ -8,7 +8,6 @@
   --border-radius: 8px;
 }
 
-
 html,
 body {
   margin: 0;
@@ -21,10 +20,12 @@ body {
   background-color: var(--bg-body);
 }
 
-main {
-  padding-inline-start: var(--space);
-  padding-inline-end: var(--space);
+.site__title {
+  text-align: center;
+
 }
+
+main {}
 
 
 .today-container {
@@ -119,4 +120,21 @@ main {
 .ingredients__heading,
 .directions__heading {
   margin: var(--space-sm);
+}
+
+.planner__container {
+  max-width: 80ch;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 48rem) {
+  .planner__container {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+  }
+}
+
+.meal-list {
+  background-color: var(--bg-card);
+  padding: 0 var(--space);
 }
