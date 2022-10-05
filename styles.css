@@ -1,0 +1,122 @@
+:root {
+  --space: 1rem;
+  --space-sm: .75rem;
+  --space-xs: .50rem;
+  --bg-body: hsl(120, 20%, 80%);
+  --bg-card: hsl(120, 20%, 90%);
+  --bg-list: hsl(120, 20%, 99%);
+  --border-radius: 8px;
+}
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #222222;
+  background-color: var(--bg-body);
+}
+
+main {
+  padding-inline-start: var(--space);
+  padding-inline-end: var(--space);
+}
+
+
+.today-container {
+  padding-inline-start: var(--space);
+  padding-inline-end: var(--space);
+}
+
+.today-container h2 {
+  text-transform: capitalize;
+}
+
+.meals-container {
+  padding-inline-start: var(--space);
+  padding-inline-end: var(--space);
+}
+
+.meals-container h3 {
+  text-transform: uppercase;
+}
+
+.card {
+  background-color: var(--bg-card);
+  padding: var(--space);
+  margin-block-end: var(--space);
+  border-radius: var(--border-radius);
+  -webkit-border-radius: var(--border-radius);
+  -moz-border-radius: var(--border-radius);
+  -ms-border-radius: var(--border-radius);
+  -o-border-radius: var(--border-radius);
+}
+
+.avatar-container {
+  display: flex;
+  align-items: center;
+  gap: var(--space);
+}
+
+.avatar-container img {
+  --width-height: 2rem;
+  width: var(--width-height);
+  height: var(--width-height);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.avatar-container p {
+  text-transform: capitalize;
+  font-weight: 500;
+  margin: 0;
+}
+
+.card__label {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-xs);
+}
+
+.card__label p {
+  font-style: italic;
+  font-size: small;
+}
+
+.card__label span {
+  padding-inline-end: .25ch;
+  font-style: normal;
+}
+
+.meal__name {
+  margin-block-start: var(--space-sm);
+  margin-block-end: 0;
+}
+
+.ingredients,
+.directions {
+  background-color: var(--bg-list);
+  font-size: smaller;
+  padding-block: var(--space);
+  border-radius: var(--border-radius);
+  -webkit-border-radius: var(--border-radius);
+  -moz-border-radius: var(--border-radius);
+  -ms-border-radius: var(--border-radius);
+  -o-border-radius: var(--border-radius);
+}
+
+.directions {
+  margin-block-start: var(--space);
+}
+
+.ingredients__heading,
+.directions__heading {
+  margin: var(--space-sm);
+}
