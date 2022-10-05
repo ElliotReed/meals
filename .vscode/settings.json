@@ -1,12 +1,12 @@
 {
   "workbench.colorCustomizations": {
-    "statusBar.background": "#222222",
+    "statusBar.foreground": "#222222",
+    "statusBar.background": "#c2d6c2",
     "statusBarItem.remoteBackground": "#222222",
-    "statusBar.activeForeground": "#a3c2a3",
-    "titleBar.activeBackground": "#a3c2a3",
-    "titleBar.inactiveBackground": "#c2d6c2",
     "titleBar.activeForeground": "#222222",
+    "titleBar.activeBackground": "#a3c2a3",
     "titleBar.inactiveForeground": "#222222",
+    "titleBar.inactiveBackground": "#c2d6c2",
   },
   "workbench.colorTheme": "greenery"
 }
