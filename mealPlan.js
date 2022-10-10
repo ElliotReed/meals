@@ -1,20 +1,18 @@
 const mealPlan = [
   {
     monday: {
-      breakfast: [
-        {
-          eater: "eleanor",
-          mealId: 0, location: "home",
-        },
-        { eater: "elliot", mealId: 0, location: "home", },
-      ],
+      breakfast: [],
       lunch: [
         {
           eater: "eleanor",
-          mealId: 6,
+          mealId: 26,
           location: "school",
         },
-        { eater: "elliot", mealId: 6, },
+        {
+          eater: "elliot",
+          mealId: 5,
+          location: 'home',
+        },
       ],
       snack: [
         {
@@ -25,19 +23,13 @@ const mealPlan = [
       dinner: [
         {
           eater: "eleanor",
-          mealId: 16, location: "home",
+          mealId: 24, location: "home",
         },
-        { eater: "elliot", mealId: 16, location: "home", },
+        { eater: "elliot", mealId: 25, location: "home", },
       ],
     },
     tuesday: {
-      breakfast: [
-        {
-          eater: "eleanor",
-          mealId: 0, location: "home",
-        },
-        { eater: "elliot", mealId: 0, location: "home", },
-      ],
+      breakfast: [],
       lunch: [
         {
           eater: "eleanor",
@@ -61,13 +53,7 @@ const mealPlan = [
       ],
     },
     wednesday: {
-      breakfast: [
-        {
-          eater: "eleanor",
-          mealId: 0, location: "home",
-        },
-        { eater: "elliot", mealId: 0, location: "home", },
-      ],
+      breakfast: [],
       lunch: [
         {
           eater: "eleanor",
@@ -91,13 +77,7 @@ const mealPlan = [
       ],
     },
     thursday: {
-      breakfast: [
-        {
-          eater: "eleanor",
-          mealId: 0, location: "home",
-        },
-        { eater: "elliot", mealId: 0, location: "home", },
-      ],
+      breakfast: [],
       lunch: [
         {
           eater: "eleanor",
@@ -121,13 +101,7 @@ const mealPlan = [
       ],
     },
     friday: {
-      breakfast: [
-        {
-          eater: "eleanor",
-          mealId: 0, location: "home",
-        },
-        { eater: "elliot", mealId: 0, location: "home", },
-      ],
+      breakfast: [],
       lunch: [
         {
           eater: "eleanor",
@@ -151,9 +125,7 @@ const mealPlan = [
       ],
     },
     saturday: {
-      breakfast: [
-        { eater: "elliot", mealId: 0, location: "home", },
-      ],
+      breakfast: [],
       lunch: [
         { eater: "elliot", mealId: 6, location: "home", },
       ],
@@ -167,9 +139,7 @@ const mealPlan = [
       ],
     },
     sunday: {
-      breakfast: [
-        { eater: "elliot", mealId: 0, location: "home", },
-      ],
+      breakfast: [],
       lunch: [
         { eater: "elliot", mealId: 6, location: "home", },
       ],

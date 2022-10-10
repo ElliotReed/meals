@@ -65,8 +65,15 @@ const meals = [
     id: 5,
     name: "Scrambled Eggs",
     recipe: {
-      ingredients: ["2-4 Eggs", "Green Chile Sauce", "Bell Peppers"],
-      directions: [],
+      ingredients: ["4 Eggs", "Green Chile Sauce", "Cheese (50g)", "Yogurt", "Chips (20g)"],
+      directions: [
+        "Mix eggs in bowl with 3tbls water",
+        "Microwave for 45 seconds, stir",
+        "Microwave for 45 seconds, stir, add cheese",
+        "Microwave for 45 seconds, stir",
+        "Add Green Chiles",
+        "Serve with yogurt and chips"
+      ],
     },
   },
   {
@@ -193,12 +200,17 @@ const meals = [
     recipe: {
       ingredients: [
         "2 Veggie Patties",
+        "Green Chile",
         "2 Buns",
         "Fruit",
+        "Yogurt",
         "Lettuce",
         "Chips (20 g)",
       ],
-      directions: ["Microwave patties for 2:15 minutes", "Put on tortilla"],
+      directions: [
+        "Microwave patties for 2:15 minutes",
+        "Put on tortilla",
+      ],
     },
   },
   {
@@ -245,8 +257,18 @@ const meals = [
     id: 22,
     name: "Ellie's Nuggets",
     recipe: {
-      ingredients: ["Chicken nuggets (10)", "Yogurt (activia)", "Sauce", "Salad (40g)", "Popcorn (1 bag)"],
-      directions: ["Microwave popcorn for 2:20 seconds", "Microwave nuggets for 3:30 minutes", "Serve with yogurt and salad"],
+      ingredients: [
+        "Chicken nuggets (10)",
+        "Yogurt (activia)",
+        "Sauce",
+        "Salad (40g)",
+        "Popcorn (1 bag)",
+      ],
+      directions: [
+        "Microwave popcorn for 2:20 seconds",
+        "Microwave nuggets for 3:30 minutes",
+        "Serve with yogurt and salad"
+      ],
     },
   },
   {
@@ -255,6 +277,60 @@ const meals = [
     recipe: {
       ingredients: ["Chicken nuggets (15)", "Yogurt (activia)", "Sauce", "Salad (40g)", "Popcorn (1 bag)"],
       directions: ["Microwave popcorn for 2:20 seconds", "Microwave nuggets for 3:30 minutes", "Serve with yogurt and salad"],
+    },
+  },
+  {
+    id: 24,
+    name: "Ellie's Veggie Burger",
+    recipe: {
+      ingredients: [
+        "1 Griller Veggie Patty",
+        "1 Bun",
+        "Fruit",
+        "Yogurt",
+        "Pickle",
+        "Chips (20 g)",
+      ],
+      directions: [
+        "Microwave patty for 45 seconds, flip and 45 more",
+        "Put burger on bun with condiments",
+        "Serve with fruit & yogurt, pickle and chips",
+      ],
+    },
+  },
+  {
+    id: 25,
+    name: "Elliot's Veggie Burger",
+    recipe: {
+      ingredients: [
+        "1 Black-bean Veggie Patty",
+        "Green Chile",
+        "1 Bun",
+        "Pickle",
+        "Fruit",
+        "Yogurt",
+        "Lettuce",
+        "Chips (20 g)",
+      ],
+      directions: [
+        "Microwave patty for 60 seconds, flip and 45 more",
+        "Put burger on bun with green chile and lettuce",
+        "Serve with fruit & yogurt, pickle and chips",
+      ],
+    },
+  },
+  {
+    id: 26,
+    name: "Ellie's canned goodness lunch",
+    recipe: {
+      ingredients: [
+        "1 can goodnes",
+        "1 bag fruit smiles",
+      ],
+      directions: [
+        "Microwave according to directions",
+        "Pack in thermos in insulated bag",
+      ],
     },
   },
 ];
