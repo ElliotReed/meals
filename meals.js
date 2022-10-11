@@ -65,7 +65,12 @@ const meals = [
     id: 5,
     name: "Scrambled Eggs",
     recipe: {
-      ingredients: ["4 Eggs", "Green Chile Sauce", "Cheese (50g)", "Yogurt", "Chips (20g)"],
+      ingredients: [
+        "4 Eggs",
+        "Green Chile Sauce",
+        "Cheese (50g)", "Yogurt",
+        "Chips (20g)"
+      ],
       directions: [
         "Mix eggs in bowl with 3tbls water",
         "Microwave for 45 seconds, stir",
@@ -160,7 +165,10 @@ const meals = [
     id: 12,
     name: "Mac & Cheese & Peas",
     recipe: {
-      ingredients: ["2 cups Pasta shells", "1 cup Peas", "4 oz Cheese"],
+      ingredients: [
+        "2 cups Pasta shells",
+        "1 cup Peas", "4 oz Cheese"
+      ],
       directions: [
         "Microwave pasta for 15 minutes",
         "Strain",
@@ -241,8 +249,17 @@ const meals = [
     id: 20,
     name: "Turkey Sandwich with Chips",
     recipe: {
-      ingredients: ["Bread (2 slices)", "Turkey (2 slices)", "Cheese (Pepperjack, 1 slice)", "Mustard", "Chips (20 g)", "Yoguhrt Raisins"],
-      directions: ["Combine turkey, cheese and mustard on bread", "pack"],
+      ingredients: [
+        "Bread (2 slices)",
+        "Turkey (2 slices)",
+        "Cheese (Pepperjack, 1 slice)",
+        "Mustard", "Chips (20 g)",
+        "Yogurt Raisins"
+      ],
+      directions: [
+        "Combine turkey, cheese and mustard on bread",
+        "pack"
+      ],
     },
   },
   {
@@ -275,8 +292,18 @@ const meals = [
     id: 23,
     name: "Elliot's Nuggets",
     recipe: {
-      ingredients: ["Chicken nuggets (15)", "Yogurt (activia)", "Sauce", "Salad (40g)", "Popcorn (1 bag)"],
-      directions: ["Microwave popcorn for 2:20 seconds", "Microwave nuggets for 3:30 minutes", "Serve with yogurt and salad"],
+      ingredients: [
+        "Chicken nuggets (15)",
+        "Yogurt (activia)",
+        "Sauce",
+        "Salad (40g)",
+        "Popcorn (1 bag)"
+      ],
+      directions: [
+        "Microwave popcorn for 2:20 seconds",
+        "Microwave nuggets for 3:30 minutes",
+        "Serve with yogurt and salad"
+      ],
     },
   },
   {
@@ -313,7 +340,7 @@ const meals = [
         "Chips (20 g)",
       ],
       directions: [
-        "Microwave patty for 60 seconds, flip and 45 more",
+        "Microwave patty for 60 seconds, flip and 60 more",
         "Put burger on bun with green chile and lettuce",
         "Serve with fruit & yogurt, pickle and chips",
       ],
@@ -322,6 +349,20 @@ const meals = [
   {
     id: 26,
     name: "Ellie's canned goodness lunch",
+    recipe: {
+      ingredients: [
+        "1 can goodnes",
+        "1 bag fruit smiles",
+      ],
+      directions: [
+        "Microwave according to directions",
+        "Pack in thermos in insulated bag",
+      ],
+    },
+  },
+  {
+    id: 27,
+    name: "Elliot's Lentil Soup",
     recipe: {
       ingredients: [
         "1 can goodnes",

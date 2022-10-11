@@ -45,11 +45,7 @@ const mealPlan = [
         },
       ],
       dinner: [
-        {
-          eater: "eleanor",
-          mealId: 16, location: "home",
-        },
-        { eater: "elliot", mealId: 16, location: "home", },
+        { eater: "elliot", mealId: 27, location: "home", },
       ],
     },
     wednesday: {
@@ -60,7 +56,7 @@ const mealPlan = [
           mealId: 20,
           location: "school",
         },
-        { eater: "elliot", mealId: 6, location: "home", },
+        { eater: "elliot", mealId: 4, location: "home", },
       ],
       snack: [
         {
