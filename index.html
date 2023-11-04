@@ -19,27 +19,31 @@
 </head>
 
 <body>
-  <main>
+  <header class="site__header">
     <h1 class="site__title">Meal Plan</h1>
+  </header>
 
-    <div class="planner__container">
+  <main class="planner__container">
 
+    <aside class="meal-list" id="meal-list">
+      <h2>Meal List</h2>
+      <ul>
+        <li data-day>Sunday</li>
+        <li data-day>Monday</li>
+        <li data-day>Tuesday</li>
+        <li data-day>Wednesday</li>
+        <li data-day>Thursday</li>
+        <li data-day>Friday</li>
+        <li data-day>Saturday</li>
+      </ul>
+    </aside>
+
+    <div class="scrollable">
       <section class="today-container" data-today></section>
-
-      <aside class="meal-list">
-        <h2>Meal List</h2>
-        <ul>
-          <li>Monday</li>
-          <li>Tuesday</li>
-          <li>Wednesday</li>
-          <li>Thursday</li>
-          <li>Friday</li>
-          <li>Saturday</li>
-          <li>Sunday</li>
-        </ul>
-      </aside>
-
     </div>
+
+    <a href="#meal-list" id="to-meal-list">☝️</a>
+
   </main>
 
   <!-- <hr>

@@ -1,31 +1,40 @@
 const mealPlan = [
   {
+    sunday: {
+      breakfast: [],
+      lunch: [
+        { eater: "elliot", mealId: 6, location: "home", },
+      ],
+      snack: [],
+      dinner: [
+        {
+          eater: "eleanor",
+          mealId: 12, location: "home",
+        },
+        { eater: "elliot", mealId: 12, location: "home", },
+      ],
+    },
     monday: {
       breakfast: [],
       lunch: [
         {
           eater: "eleanor",
-          mealId: 26,
+          mealId: 20,
           location: "school",
         },
         {
           eater: "elliot",
-          mealId: 5,
+          mealId: 10,
           location: 'home',
         },
       ],
-      snack: [
-        {
-          eater: "eleanor",
-          mealId: 0, location: "home",
-        },
-      ],
+      snack: [],
       dinner: [
         {
           eater: "eleanor",
-          mealId: 24, location: "home",
+          mealId: 23, location: "home",
         },
-        { eater: "elliot", mealId: 25, location: "home", },
+        { eater: "elliot", mealId: 23, location: "home", },
       ],
     },
     tuesday: {
@@ -36,16 +45,11 @@ const mealPlan = [
           mealId: 20,
           location: "school",
         },
-        { eater: "elliot", mealId: 10, location: "home", },
+        { eater: "elliot", mealId: 6, location: "home", },
       ],
-      snack: [
-        {
-          eater: "eleanor",
-          mealId: 21, location: "home",
-        },
-      ],
+      snack: [],
       dinner: [
-        { eater: "elliot", mealId: 27, location: "home", },
+        { eater: "elliot", mealId: 1, location: "home", },
       ],
     },
     wednesday: {
@@ -56,20 +60,15 @@ const mealPlan = [
           mealId: 20,
           location: "school",
         },
-        { eater: "elliot", mealId: 4, location: "home", },
+        { eater: "elliot", mealId: 5, location: "home", },
       ],
-      snack: [
-        {
-          eater: "eleanor",
-          mealId: 0, location: "home",
-        },
-      ],
+      snack: [],
       dinner: [
         {
           eater: "eleanor",
-          mealId: 22, location: "home",
+          mealId: 13, location: "home",
         },
-        { eater: "elliot", mealId: 23, location: "home", },
+        { eater: "elliot", mealId: 13, location: "home", },
       ],
     },
     thursday: {
@@ -80,20 +79,12 @@ const mealPlan = [
           mealId: 20,
           location: "school",
         },
-        { eater: "elliot", mealId: 6, location: "home", },
+        { eater: "elliot", mealId: 4, location: "home", },
       ],
-      snack: [
-        {
-          eater: "eleanor",
-          mealId: 0, location: "home",
-        },
-      ],
+      snack: [],
       dinner: [
-        {
-          eater: "eleanor",
-          mealId: 16
-        },
-        { eater: "elliot", mealId: 16, location: "home", },
+
+        { eater: "elliot", mealId: 11, location: "home", },
       ],
     },
     friday: {
@@ -104,48 +95,25 @@ const mealPlan = [
           mealId: 20,
           location: "school",
         },
-        { eater: "elliot", mealId: 6, location: "home", },
+        { eater: "elliot", mealId: 2, location: "home", },
       ],
-      snack: [
-        {
-          eater: "eleanor",
-          mealId: 0, location: "home",
-        },
-      ],
+      snack: [],
       dinner: [
         {
           eater: "eleanor",
-          mealId: 16, location: "home",
+          mealId: 17, location: "home",
         },
-        { eater: "elliot", mealId: 16, location: "home", },
+        { eater: "elliot", mealId: 17, location: "home", },
       ],
     },
     saturday: {
       breakfast: [],
       lunch: [
-        { eater: "elliot", mealId: 6, location: "home", },
+        { eater: "elliot", mealId: 4, location: "home", },
       ],
       snack: [],
       dinner: [
-        {
-          eater: "eleanor",
-          mealId: 16
-        },
-        { eater: "elliot", mealId: 16, location: "home", },
-      ],
-    },
-    sunday: {
-      breakfast: [],
-      lunch: [
-        { eater: "elliot", mealId: 6, location: "home", },
-      ],
-      snack: [],
-      dinner: [
-        {
-          eater: "eleanor",
-          mealId: 16, location: "home",
-        },
-        { eater: "elliot", mealId: 16, location: "home", },
+        { eater: "elliot", mealId: 1, location: "home", },
       ],
     },
   },

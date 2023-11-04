@@ -2,6 +2,7 @@ import { meals } from "./meals.js"
 import { mealPlan } from "./mealPlan.js"
 
 const todaysMealsContainer = document.querySelector("[data-today]")
+const dayList = document.querySelectorAll('[data-day]')
 
 const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 const weeks = 2;
@@ -92,7 +93,7 @@ function getMealSectionElement({ title } = {}) {
   return mealSectionElement;
 }
 
-function getMealCards(mealKey) {
+function getMealCards(mealKey, todaysMeals) {
   const mealCardsContainer = document.createElement('div');
 
   todaysMeals[mealKey].map(mealPlanMeal => {
@@ -123,21 +124,39 @@ function buildMealSections(todaysMeals) {
 
   const mealSections = mealKeys.map(mealKey => {
     const mealSectionElement = getMealSectionElement({ title: mealKey });
-    const mealCardsContainer = getMealCards(mealKey);
+    const mealCardsContainer = getMealCards(mealKey, todaysMeals);
     mealSectionElement.append(mealCardsContainer);
     return mealSectionElement;
   });
 
-  const sections = mealSections.map(section => todaysMealsContainer.append(section))
-  return sections;
-
+  mealSections.forEach(section => {
+    todaysMealsContainer.append(section)
+  });
 }
 
-function fillTodaysMealContainer() {
+function fillTodaysMealContainer(day, todaysMeals) {
   const dayElement = document.createElement('h2');
   dayElement.textContent = day;
   todaysMealsContainer.append(dayElement);
-  buildMealSections(todaysMeals, todaysMealsContainer);
+  buildMealSections(todaysMeals);
 }
 
-fillTodaysMealContainer()
+function handleDayClick(day) {
+  const currentWeek = 0;
+  const currentWeekMeals = mealPlan[currentWeek];
+  const todaysMeals = currentWeekMeals[day.toLowerCase()];
+  todaysMealsContainer.innerHTML = "";
+  fillTodaysMealContainer(day, todaysMeals)
+}
+
+function handleClick(event) {
+  const target = event.target;
+  if (target.id === 'to-meal-list') return;
+  if (target.hasAttribute('data-day')) {
+    handleDayClick(target.textContent)
+  }
+}
+
+document.addEventListener('click', handleClick);
+
+fillTodaysMealContainer(day, todaysMeals)
