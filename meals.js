@@ -64,7 +64,12 @@ const meals = [
     id: 6,
     name: "Rice Cakes with Peanut Butter",
     recipe: {
-      ingredients: ["Rice cake", "Peanut butter", "Fruit cup", "Goldfish (15g)"],
+      ingredients: [
+        "Rice cake",
+        "Peanut butter",
+        "Fruit (15g",
+        "Chips (14g)"
+      ],
       directions: ["Spread peanut butter on rice cake"],
     },
   },
@@ -111,20 +116,17 @@ const meals = [
   },
   {
     id: 12,
-    name: "Mac & Cheese & Peas and Salad",
+    name: "Mac & Cheese & Peas and Fruit",
     recipe: {
       ingredients: [
         "?g  Pasta shells",
         "Peas (?g)", "? oz Cheese",
-        "Lettuce (15g)",
-        "Hummus (g)",
-        "Peas (15g)",
-        "Corn (15g)"
+        "Fruit (50g)",
       ],
       directions: [
-        "Microwave pasta for 15 minutes",
+        "Microwave pasta for 12 minutes",
         "Strain",
-        "Put cheese in bowl and microwave for 1 minute",
+        "Put cheese and water in bowl, microwave for 1 minute",
         "Add pasta and stir",
         "Add peas and stir",
       ],
