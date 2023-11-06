@@ -79,17 +79,14 @@ const meals = [
     recipe: {
       ingredients: [
         "Ramen Soup",
-        "1/2 cups peas",
-        "20 grams Crackers",
+        "10 grams Crackers",
         "1 cup Water",
-        "1 banana",
+        "Fruit (15g)",
       ],
       directions: [
         "Microwave for 4:30 minutes",
-        "Drain, stir in seasoning",
-        "Add peas, stir",
         "Top with crackers",
-        "Serve with banana"
+        "Serve with fruit"
       ],
     },
   },
