@@ -67,7 +67,7 @@ const meals = [
       ingredients: [
         "Rice cake",
         "Peanut butter",
-        "Fruit (15g",
+        "Fruit (15g)",
         "Chips (14g)"
       ],
       directions: ["Spread peanut butter on rice cake"],
@@ -119,14 +119,14 @@ const meals = [
     name: "Mac & Cheese & Peas and Fruit",
     recipe: {
       ingredients: [
-        "?g  Pasta shells",
-        "Peas (?g)", "? oz Cheese",
-        "Fruit (50g)",
+        "40g  Pasta shells",
+        "Peas (15g)", "30g Cheese",
+        "Fruit (60g)",
       ],
       directions: [
         "Microwave pasta for 12 minutes",
         "Strain",
-        "Put cheese and water in bowl, microwave for 1 minute",
+        "Put cheese and 2tbls water in bowl, microwave for 1 minute",
         "Add pasta and stir",
         "Add peas and stir",
       ],
