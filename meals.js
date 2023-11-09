@@ -52,10 +52,11 @@ const meals = [
     recipe: {
       ingredients: [
         "Tortilla",
-        "Lettuce (15g)",
+        "Lettuce (20g)",
         "Hummus (g)",
-        "Peas (15g)",
-        "Corn (15g)"
+        "Peas (20g)",
+        "Corn (15g)",
+        "Chips (14g)"
       ],
       directions: [],
     },
@@ -67,7 +68,7 @@ const meals = [
       ingredients: [
         "Rice cake",
         "Peanut butter",
-        "Fruit (15g)",
+        "Fruit (25g)",
         "Chips (14g)"
       ],
       directions: ["Spread peanut butter on rice cake"],
@@ -79,7 +80,7 @@ const meals = [
     recipe: {
       ingredients: [
         "Ramen Soup",
-        "10 grams Crackers",
+        "10g Crackers",
         "1 cup Water",
         "Fruit (15g)",
       ],
@@ -116,7 +117,7 @@ const meals = [
     name: "Mac & Cheese & Peas and Fruit",
     recipe: {
       ingredients: [
-        "40g  Pasta shells",
+        "50g  Pasta shells",
         "Peas (15g)", "30g Cheese",
         "Fruit (60g)",
       ],
@@ -134,9 +135,10 @@ const meals = [
     name: "Chilli and Yogurt",
     recipe: {
       ingredients: [
-        "1/2 can Chilli",
+        "Chilli (242g)",
+        "Crackers (14g)",
         "Yogurt (50g)",
-        "Fruit (50g)",
+        "Fruit (90g)",
         "Grapenuts"
       ],
       directions: ["Microwave chilli for 1.5 minutes"],
