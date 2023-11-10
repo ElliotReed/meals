@@ -30,9 +30,13 @@ const meals = [
     id: 2,
     name: "Oatmeal",
     recipe: {
-      ingredients: ["Oats", "Fruit 40g", "Brown Sugar 10g", "Water"],
+      ingredients: [
+        "Oats (65g)",
+        "Fruit (50g)",
+        "Brown Sugar (10g)",
+        "Water (1 1/8 cup)"],
       directions: [
-        "Mix oats and water. Daddy: 1/2 cup oats, 1 1/8 cup water",
+        "Mix oats and water",
         "Microwave for 2 min. 45 sec.",
         "Stir in brown sugar, then fruit",
       ],
@@ -194,9 +198,9 @@ const meals = [
     name: "Chimichanga and Salad",
     recipe: {
       ingredients: [
-        "1 chimichanga",
+        "Chimichanga",
         "Fruit",
-        "Chips (20 g)",
+        "Chips (20g)",
         "Lettuce (15g)",
         "Hummus (g)",
         "Peas (15g)",
