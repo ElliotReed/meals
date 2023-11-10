@@ -42,8 +42,19 @@ const meals = [
     id: 4,
     name: "Tuna Wrap",
     recipe: {
-      ingredients: ["Tortilla", "Tuna", "Lettuce", "Hummus"],
-      directions: [],
+      ingredients: [
+        "Tortilla",
+        "Tuna (56g)",
+        "Lettuce (20g)",
+        "Hummus (18g)",
+        "Peas (20g)",
+        "Fruit (50g)",
+        "Chips (14g)"
+      ],
+      directions: [
+        "Wrap Tuna , Lettuce, Hummas and Peas in Tortilla",
+        "Serve with Fruit and Chips"
+      ],
     },
   },
   {
@@ -56,9 +67,13 @@ const meals = [
         "Hummus (g)",
         "Peas (20g)",
         "Corn (15g)",
+        "Fruit (50g)",
         "Chips (14g)"
       ],
-      directions: [],
+      directions: [
+        "Wrap Tuna , Lettuce, Hummas and Peas in Tortilla",
+        "Serve with Fruit and Chips"
+      ],
     },
   },
   {
@@ -101,14 +116,17 @@ const meals = [
         "Garlic",
         "Dill Weed",
         "Lettuce (25g)",
-        "Hummus (g)",
+        "Hummus (35g)",
         "Peas (20g)",
-        "Stir Fry Veggies (50g)"
+        "Stir Fry Veggies (50g)",
+        "Croutons (14g)",
+        "Chips (14g)"
       ],
       directions: [
         "Microwave pasta for 12 minutes",
         "Strain and season",
         "add parmesean",
+        "Serve with Salad and Chips"
       ],
     },
   },
